@@ -1,0 +1,212 @@
+#body{
+    width: 1366px;
+}
+.title{
+      color:aquamarine;
+        font-size:100px;
+        text-align: center;
+        font-weight:bold;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px cornflowerblue, 0 0 70px cornflowerblue, 0 0 80px cornflowerblue, 0 0 100px cornflowerblue, 0 0 150px cornflowerblue;
+     font-family: "Rounded Mplus 1c";
+}
+.star {
+    animation: kirakira 8s linear;
+    color: yellow;
+    display: inline-block;
+    height: 1em;
+    line-height: 1em;
+    position: fixed;
+    top: -1em;
+    z-index: 1000;
+}
+
+@keyframes kirakira {
+    0% {
+        transform:translateY(0) rotateY(0);
+    }
+    100% {
+        transform:translateY(calc(100vh + 1em)) rotateY(3600deg);
+    }
+}
+.image-crossfader {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+.image-crossfader-inner {
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  margin-left: 480px;
+  margin-top: 100px;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height:450px;
+  z-index: 0;
+  opacity: 0;
+  transform: scale(1);
+  transition:
+    opacity 3.5s cubic-bezier(0.455, 0.03, 0.515, 0.955),
+    transform 3.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.image-crossfader-inner.is-visible {
+  z-index: 1;
+  opacity: 1;
+  transform: scale(1.06);
+}
+.image-crossfader-inner:nth-child(1) {
+  background-image: url('../img/41mvVwPk0OL._SX342_BO1,204,203,200_.jpg');
+}
+.image-crossfader-inner:nth-child(2) {
+  background-image: url('../img/51bvCootu9L._AC_UL320_SR222,320_.jpg');
+}
+.image-crossfader-inner:nth-child(3) {
+  background-image: url('../img/51GF4RQKvFL._SX344_BO1,204,203,200_.jpg');
+}
+.image-crossfader-inner:nth-child(4) {
+  background-image: url('../img/51hNY7UBvlL._SX345_BO1,204,203,200_.jpg');
+}
+.image-crossfader-inner:nth-child(5) {
+  background-image: url('../img/51K2dIi6eIL._SX347_BO1,204,203,200_.jpg');
+}
+.image-crossfader-inner:nth-child(6) {
+  background-image: url('../img/51katMVam+L.jpg');
+}
+.image-crossfader-inner:nth-child(7) {
+  background-image: url('../img/osusume_001.jpg');
+}
+.image-crossfader-inner:nth-child(8) {
+  background-image: url('../img/images.jpeg');
+}
+.image-crossfader-inner:nth-child(9) {
+  background-image: url('../img/bccc1c399b06bb8c53c88631ce052532-150x217.jpg');
+}
+
+#balloon1-1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 220px;
+    width: 800px;
+    height: 450px;
+    background-color:plum;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-family: "Hannari"; 
+}
+#balloon1-2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 220px;
+    width: 800px;
+    height: 450px;
+    background-color:orange;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: "Hannari"; 
+}
+#balloon1-3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 220px;
+    width: 800px;
+    height: 450px;
+    background-color:gold;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-family: "Hannari"; 
+}
+#balloon1-4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 220px;
+    width: 800px;
+    height: 450px;
+    background-color:turquoise;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: "Hannari"; 
+}
+#balloon1-5{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 220px;
+    width: 800px;
+    height: 450px;
+    background-color:darkturquoise;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-family: "Hannari"; 
+}
+#balloon1-6{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 220px;
+    width: 800px;
+    height: 450px;
+    background-color:orange;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-family: "Hannari"; 
+}
+#balloon1-7{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 220px;
+    width: 800px;
+    height: 450px;
+    background-color:pink;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-family: "Hannari"; 
+}
+#balloon1-8{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 220px;
+    width: 800px;
+    height: 450px;
+    background-color:gold;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-family: "Hannari"; 
+}
+#balloon1-9{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 220px;
+    width: 800px;
+    height: 450px;
+    background-color:plum;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: "Hannari"; 
+}

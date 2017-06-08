@@ -1,0 +1,149 @@
+/*ここからhiyoshi.php*/
+.hiyoshihtml{
+    width: 1200px;
+    background-color: whitesmoke;
+}
+
+.title {
+    color: yellowgreen;
+    text-align: center;
+    font-size: 80px;
+}
+.hiyoshi{
+    margin-left: 110px;
+}
+.hiyoshibutton{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 60px;
+    margin-left: 10px;
+}
+.touroku1{
+    font-size: 30px;
+    color: seagreen;
+}
+.kensaku1{
+    font-size: 30px;
+    color: seagreen;
+}
+
+.gomap{
+    font-size: 25px;
+    margin-left: 420px;
+    margin-top: 80px;
+    color: yellowgreen;
+}
+
+/*ここからindex.php*/
+.indexhtml{
+  width: 1200px;
+  background-color: whitesmoke;
+
+}
+.favbook{
+    font-size: 50px;
+    color:  tan;
+    text-align: center;
+}
+.bookname1{
+    font-size: 30px;
+    margin-left: 400px;
+    color: cornflowerblue;
+}
+.writername1{
+    font-size: 30px;
+    margin-left: 380px;
+    margin-top: 20px;
+    color: cornflowerblue;
+}
+.bookURL1{
+    font-size: 30px;
+    margin-left: 390px;
+    margin-top: 20px;
+    color: cornflowerblue;
+}
+.kansou{
+    font-size: 30px;
+    margin-left: 390px;
+    margin-top: 20px;
+    color: cornflowerblue;
+}
+.datasubmit{
+    font-size: 25px;
+    margin-left: 525px;
+    margin-top: 50px;
+    color: tan;
+}
+.godata{
+    font-size: 25px;
+    margin-left: 415px;
+    margin-top: 50px;
+    color: tan;
+}
+.modoru2{
+    font-size: 20px;
+    margin-left: 480px;
+    margin-top: 60px;
+}
+/*ここからselect.php*/
+.selecthtml{
+    background-color: bisque;
+}
+.bookdatatitle{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.bookserch{
+    font-size: 25px;
+    color: skyblue;
+    text-align: center;
+}
+.searchword{
+    width: 200px;
+    height: 50px;
+}
+.kensaku2{
+    font-size: 17px;
+    color: skyblue;
+}
+.searchform{
+    margin-left: 415px;
+}
+.kekka{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 0px;
+}
+.modoru{
+    margin-top: 100px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 140px;
+}
+/*ここからsearch.php*/
+.searchhtml{
+    background-color: paleturquoise;
+}
+.namekekka{
+     font-size: 50px;
+    color:green;
+    text-align: center;
+}
+.kekka1{
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 60px;
+}
+.modoru1{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 140px;
+    
+}

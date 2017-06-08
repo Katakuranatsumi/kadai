@@ -7,9 +7,11 @@ $bookcoment = $_POST["bookcoment"];
 
 
 
+
+
 //2. DB接続します
-try {
-  $pdo = new PDO('mysql:dbname=gs_db;charset=utf8;host=localhost','root','');
+    
+try { $pdo = new PDO('mysql:dbname=gs_db;charset=utf8;host=localhost','root','');
 } catch (PDOException $e) {
   exit('接続エラーを書くところだよ:'.$e->getMessage());
 }
@@ -38,4 +40,5 @@ if($status==false){
   exit;
 
 }
+
 ?>
