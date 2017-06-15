@@ -11,7 +11,7 @@ try {
 }
 
 //２．データ表示SQL作成
-$stmt = $pdo->prepare("SELECT * FROM gs_bm_table");
+$stmt = $pdo->prepare("SELECT * FROM gs_user_table");
 $status = $stmt->execute();
 
 //$stmt1 = $pdo->prepare("SELECT * FROM gs_bm_table WHERE bookname LIKE '%$searchword%'");
@@ -33,13 +33,57 @@ if($status==false){
 }else{
   //Selectデータの数だけ自動でループしてくれる
   while( $result = $stmt->fetch(PDO::FETCH_ASSOC)){
-    $view .= '<tr>';
-    $view .= '<br>';
-    $view .= '<td style="background-color:whitesmoke">'.$result["bookname"].'</td>';
-    $view .= '<td style="background-color:whitesmoke">'.$result["writername"].'</td>';
-    $view .= '<td style="background-color:whitesmoke">'.$result["bookURL"].'</td>';
-    $view .= '<td style="background-color:whitesmoke">'.$result["bookcoment"].'</td>';
-    $view .= '</tr>';
+//    $view .= '<tr>';
+//    $view .= '<br>';
+//    $view .= '<a href="bm_update_view.php?  id='.$result["id"].'">';
+//    $view .= ' '; 
+//    $view .= '<td style="background-color:whitesmoke">'.$result["bookname"].'</td>';
+//    $view .= '</a>';
+    $view .= '<p>';
+    $view .= '<a href="bm_update_view2.php?id='.$result["id"].'">';
+      
+    $view .= $result["name"].
+        
+    "・".$result["lid"]."";
+      
+    $view .= "・".$result["lpw"]."";
+    $view .= '</a>';
+    $view .= ' '; 
+      
+    $view .= '<a href="delete2.php?id='.$result["id"].'">'; 
+    $view .= '[削除]'; 
+    $view .= '</a>'; 
+    $view .= '</p>';
+      
+//    $view .= '<td style="background-color:whitesmoke">';
+//    $view .= ' ';
+//    $view .= '<a href="bm_update_view.php?id='.$result["id"].'">'.$result["writername"].'</a>';
+//    $view .= '</td>';
+//      
+//    $view .= '<td style="background-color:whitesmoke">';
+//    $view .= ' ';
+//    $view .= '<a href="bm_update_view.php?id='.$result["id"].'">'.$result["bookURL"].'</a>';
+//    $view .= '</td>';
+//      
+//    $view .= '<td style="background-color:whitesmoke">';
+//    $view .= ' ';
+//    $view .= '<a href="bm_update_view.php?id='.$result["id"].'">'.$result["bookcoment"].'</a>';
+//    $view .= '</td>';
+//      
+//    $view .= '<td>'; 
+//    $view .= ' '; 
+//    $view .= '<a href="delete.php?id='.$result["id"].'>'; 
+//    $view .= '[削除]'; 
+//    $view .= '</a>';
+//    $view .= '</td>'; 
+//    $view .= '</tr>';
+      
+//    $view .= '<td style="background-color:whitesmoke">'.$result["bookname"].'</td>';
+//    $view .= '</a>';
+//    $view .= '<td style="background-color:whitesmoke">'.$result["writername"].'</td>';
+//    $view .= '<td style="background-color:whitesmoke">'.$result["bookURL"].'</td>';
+//    $view .= '<td style="background-color:whitesmoke">'.$result["bookcoment"].'</td>';
+//    $view .= '</a>';
       
   }
 
@@ -92,6 +136,7 @@ if($status==false){
 <!-- Head[End] -->
 
 <!-- Main[Start] -->
+<!--
 <h1 class="bookdatatitle">〜本のデータ一覧〜</h1>
 <h2 class="bookserch">本の名前であいまい検索をする</h2>
 <form action="search.php" method="get">
@@ -106,22 +151,24 @@ if($status==false){
         <button id="btn" class="kensaku2">検索</button>
      </div>
     </form>
+-->
     
+<!--
     <table class="kekka">
     <th style="background-color:#5f6527">本の名前</th>
     <th style="background-color:#f2dae8">作者の名前</th>
     <th style="background-color:#d1bada">本のURL</th>
-    <th style="background-color:#c1ab05">感想</th><?=$view?></table>
-    
-<!--
-    <div class="container jumbotron">
-    <table><?=$view1?></table>
-    </div>
+    <th style="background-color:#c1ab05">感想</th>
+    <th style="background-color:#d1bada">削除</th></table>
 -->
+   <h2>ユーザーデータ一覧！</h2>
+    <div>
+    <div class="container jumbotron"><?=$view?></div>
+  </div>
 <!-- Main[End] -->
 <div class="modoru">
-<a href="index.php" >データ登録画面に戻る</a>
-<a href="hiyoshi.php" >はじめに戻る</a>
+<a href="user_id.php" >ユーザーデータ登録画面に戻る</a>
+<a href="hiyoshi.php" >トップページに戻る</a>
 </div>
 </body>
 </html>

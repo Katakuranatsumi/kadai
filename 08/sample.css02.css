@@ -147,3 +147,17 @@
     margin-right: 140px;
     
 }
+
+/*ここからuser_id.php*/
+.kind{
+    display: flex;
+}
+.user{
+    display: flex;
+}
+.button{
+    margin-top: 45px;
+    margin-left: 10px;
+}
+    
+}
