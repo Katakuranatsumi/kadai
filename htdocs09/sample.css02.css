@@ -1,0 +1,380 @@
+/*ここからhiyoshi.php*/
+#body{
+    width: 1200px;
+}
+
+.title {
+    color: yellowgreen;
+    text-align: center;
+    font-size: 80px;
+}
+.hiyoshi{
+    margin-left: 330px;
+}
+.hiyoshibutton{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 60px;
+    margin-left: 10px;
+}
+.touroku1{
+    font-size: 25px;
+    color: seagreen;
+}
+.kensaku1{
+    font-size: 25px;
+    color: seagreen;
+}
+.login1{
+   font-size: 25px;
+    color: seagreen; 
+}
+.gomap{
+    font-size: 25px;
+    margin-left: 420px;
+    margin-top: 80px;
+    color: yellowgreen;
+}
+
+.image-crossfader {
+  overflow: hidden;
+  position: relative;
+  height: 700px;
+  margin-left: 370px;
+  
+}
+.image-crossfader-inner {
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 50px;
+  width: 430px;
+  height:500px;
+  z-index: 0;
+  opacity: 0;
+  transform: scale(1);
+  transition:
+    opacity 3.5s cubic-bezier(0.455, 0.03, 0.515, 0.955),
+    transform 3.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.image-crossfader-inner.is-visible {
+  z-index: 1;
+  opacity: 1;
+  transform: scale(1.06);
+}
+.image-crossfader-inner:nth-child(1) {
+  background-image: url('../htdocs09/img/003.jpg');
+}
+.image-crossfader-inner:nth-child(2) {
+  background-image: url('../img/128867-01.jpg');
+}
+.image-crossfader-inner:nth-child(3) {
+  background-image: url('../img/20140811184314.jpg');
+}
+.image-crossfader-inner:nth-child(4) {
+  background-image: url('../htdocs09/img/img_0.jpeg');
+}
+.image-crossfader-inner:nth-child(5) {
+  background-image: url('../img/kingyoneko-300x211.jpg');
+}
+.image-crossfader-inner:nth-child(6) {
+  background-image: url('../img/mig-2.jpeg');
+}
+.image-crossfader-inner:nth-child(7) {
+  background-image: url('../img/mig-3.jpeg');
+}
+.image-crossfader-inner:nth-child(8) {
+  background-image: url('../img/mig-4.jpeg');
+}
+.image-crossfader-inner:nth-child(9) {
+  background-image: url('../img/news_image_445_1_0.png');
+}
+.hiyoshititle{
+  font-size: 50px;
+  text-align: center;
+  color: yellowgreen;
+}
+
+
+/*ここからbooktouroku.php*/
+.indexhtml{
+  width: 1200px;
+  background-color: whitesmoke;
+
+}
+.favbook{
+    font-size: 40px;
+    color:  tan;
+    text-align: center;
+}
+.bookname1{
+    font-size: 30px;
+    margin-left: 400px;
+    color: cornflowerblue;
+    margin-top: 50px;
+}
+.writername1{
+    font-size: 30px;
+    margin-left: 380px;
+    margin-top: 20px;
+    color: cornflowerblue;
+}
+.bookURL1{
+    font-size: 30px;
+    margin-left: 390px;
+    margin-top: 40px;
+    color: cornflowerblue;
+}
+.kansou{
+    font-size: 30px;
+    margin-left: 330px;
+    margin-top: 40px;
+    color: cornflowerblue;
+}
+.datasubmit{
+    font-size: 20px;
+    margin-left: 575px;
+    margin-top: 50px;
+    color: tan;
+}
+.godata{
+    font-size: 20px;
+    margin-left: 490px;
+    margin-top: 50px;
+    color: tan;
+}
+.booktourokuhajime{
+    font-size: 20px;
+    color: tan;
+}
+.booktourokurogout{
+   font-size: 20px;
+    color: tan;
+    
+}
+.booktourokubutton{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.booktourokupicture{
+    margin-left: 450px;
+    margin-top: 40px;
+}
+/*ここからselect.php*/
+.selecthtml{
+    background-color: bisque;
+}
+.bookdatatitle{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.bookserch{
+    font-size: 25px;
+    color: skyblue;
+    text-align: center;
+}
+.searchword{
+    width: 200px;
+    height: 50px;
+}
+.kensaku2{
+    font-size: 17px;
+    color: skyblue;
+}
+.searchform{
+    margin-left: 415px;
+}
+.kekka{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 0px;
+}
+.modoru{
+    margin-top: 100px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 140px;
+}
+/*ここからsearch.php*/
+.searchhtml{
+    background-color: paleturquoise;
+}
+.namekekka{
+     font-size: 50px;
+    color:green;
+    text-align: center;
+}
+.kekka1{
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 60px;
+}
+.modoru1{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 140px;
+    
+}
+.searchname{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+.searchlogout{
+    font-size: 25px;
+    color: white;
+    background-color:thistle;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.searchpicture{
+    margin-left: 320px;
+    margin-top: 50px;
+}
+
+/*ここから下はlogin.php*/
+.loginhtml{
+    background-color: wheat;
+}
+.logintitle{
+    font-size: 50px;
+    text-align: center;
+    color: powderblue;
+}
+.loginfont{
+    color: powderblue;
+    font-size: 20px;
+}
+.loginform{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 60px;
+    
+
+}
+.loginbutton{
+    margin-left: 510px;
+    font-size: 25px;
+}
+
+.logionpicture{
+    margin-left: 370px;
+    margin-top: 50px;
+}
+/*ここから下はloginselect.php*/
+.logoutgamenhtml{
+    background-color:  powderblue;
+}
+.loginselectlogout{
+    font-size: 25px;
+    color: seagreen;
+    margin-left: 445px;
+    margin-top: 20px;
+}
+/*ここからはlogoutgamen.php*/
+.logoutshitayo{
+    font-size: 50px;
+    margin-left: 360px;
+    color: palegoldenrod;
+}
+.logoutpicture{
+    margin-left: 330px;
+    margin-top: 50px;
+}
+.logouthajime{
+    font-size: 25px;
+    color: seagreen;
+    margin-left: 480px;
+    margin-top: 50px;
+}
+/*ここからloginselect.php*/
+.loginselectname{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+/*writersearch.php*/
+
+.namekekka{
+     font-size: 50px;
+    color:white;
+    text-align: center;
+}
+.writersearchname{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+.writersearchpicture{
+    margin-top: 50px;
+    margin-left: 410px;
+}
+
+.writersearchlogout{
+    font-size: 25px;
+    color: white;
+    background-color:thistle;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+/*ここからselect2.php*/
+.select2html{
+    background-color:mistyrose;
+}
+.select2name{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.datatchiran{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.userdata{
+    text-align: center;
+    font-size: 20px;
+}
+.select2buttongroup{
+    display: flex;
+    justify-content: space-around;
+}
+.select2button{
+    font-size: 25px;
+    color:white;
+    background-color: burlywood;
+}
+/*ここからuser_id.php*/
+.datasubmit2{
+    font-size: 20px;
+    margin-left: 555px;
+    margin-top: 50px;
+    color: tan;
+}
+
+.user_idhajime{
+    font-size: 20px;
+    color: tan;
+    margin-left: 460px;
+    margin-top: 50px;
+}
+.user_idpicture{
+    margin-left: 350px;
+    margin-top: 50px;
+}

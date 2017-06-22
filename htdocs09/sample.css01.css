@@ -1,0 +1,471 @@
+#body1{
+    background-color: seashell; 
+}
+
+#body{
+    width: 1200px;
+    background-color: ghostwhite;
+}
+.title{
+    color:rosybrown;
+    text-align: center;
+    font-size: 60px;
+}
+.font{
+    font-size: 28px;
+    text-align: center;
+    color: wheat;
+}
+#mendare{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.namae{
+  font-size: 25px;
+  margin-left: 480px;
+}
+.mail{
+   font-size: 25px;
+   margin-left: 480px;
+}
+.gender0{
+  display: flex;
+  font-size: 25px;
+   justify-content: space-around;
+   margin-left: 430px;
+   margin-right: 430px;
+}
+.gender1{
+    display: flex;
+    font-size: 25px;
+   justify-content: space-around;
+   margin-left: 430px;
+   margin-right: 430px;
+}
+.font1{
+   margin-bottom: 0px;
+    margin-top: 0px;
+    color: royalblue;
+ 
+}
+.font2{
+   margin-bottom: 0px; 
+   margin-top: 0px; 
+   color: violet;
+}
+.menbutton{
+    display: flex;
+}
+.font3{
+    font-size: 25px;
+    margin-left: 80px;
+     color: royalblue;
+}
+.morisan{
+    margin-left: 20px;
+    margin-top: 37px;
+}
+.font4{
+    font-size: 25px;
+    color: royalblue;
+    margin-left: 120px;
+}
+.hoshisan{
+    margin-left: 20px;
+    margin-top: 37px;
+}
+.font5{
+    font-size: 25px;
+    margin-left: 100px;
+    color: royalblue;
+}
+.gousan{
+    margin-left: 20px;
+    margin-top: 37px;
+}
+.humipic{
+    margin-top: 20px;
+}
+#womendore{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.womenbutton{
+    display: flex;
+}
+
+.font6{
+    font-size: 25px;
+    margin-left: 80px;
+      color: violet;
+}
+.asosan{
+    margin-left: 20px;
+    margin-top: 37px;
+}
+.font7{
+    font-size: 25px;
+    color: violet;
+    margin-left: 170px;
+}
+.humisan{
+    margin-left: 20px;
+    margin-top: 37px;
+}
+.font8{
+    font-size: 25px;
+    margin-left: 150px;
+     color: violet;
+}
+.mitsusan{
+    margin-left: 20px;
+    margin-top: 37px;
+}
+.naze{
+    font-size: 28px;
+    text-align: center;
+    color:rosybrown;
+    
+}
+.naze1{
+    font-size: 25px;
+    width: 300px;
+    height: 200px;
+    margin-left: 460px;
+}
+#submit{
+     padding: 10px 30px;
+     font-size: 20px;
+      color:rosybrown;
+     margin-top: 20px;
+     margin-left: 535px;
+}
+
+/*ここから下はoutput_data.php*/
+.midashi{
+    font-size: 70px;
+    text-align: center;
+    color:  tomato;
+    
+}
+#button{
+   padding: 10px 30px;
+    font-size: 18px;
+    margin-left: 430px;
+    margin-top: 60px;
+    color: gold;
+    background-color: cornflowerblue;
+    
+}
+.name0{
+}
+#resolut{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.resolut0{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*ここからトム&ジェリー*/
+#balloon1-1{
+    margin-top: 80px;
+    width: 300px;
+    height: 50px;
+    background-color:skyblue;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: hotpink;
+    margin-bottom: 0px;
+}
+
+#balloon1-2{
+    margin-top:  0px;
+    width: 300px;
+    height:  50px;
+    background-color:skyblue;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: hotpink;
+    margin-bottom: 0px;
+}
+
+#balloon1-2:before{
+    position: absolute;
+    right: 300px;
+    bottom: 20px;
+    content:'';
+     width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 20px 30px 20px 20px;
+    border-color:  transparent skyblue transparent transparent;
+   
+}
+
+#balloon1-3{
+    margin-top:0px;
+    width: 300px;
+    height: 50px;
+    background-color: skyblue;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: hotpink;
+    margin-bottom: 0px;
+}
+
+#balloon1-4{
+    margin-top: 0px;
+    width: 300px;
+    height: 50px;
+    background-color:skyblue;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: hotpink;
+    margin-bottom: 0px;
+}
+#balloon1-5{
+    margin-top:  0px;
+    width: 300px;
+    height:  100px;
+    background-color:skyblue;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: hotpink;
+    margin-bottom: 0px;
+}
+.mail0 {
+    margin-top: 0px;
+}
+.seibetsu0{
+    margin-top: 0px;
+}
+.naze0{
+     margin-top: 0px;
+}
+.lover{
+     margin-top: 0px;
+}
+.hukidashi{
+    background-color: skyblue;
+}
+.tweetie{
+    margin-top: 50px;
+}
+.tomjeri{
+    margin-top: 50px;
+}
+.bucks{
+    margin-top: 50px;
+}
+
+/*ここからtweetie*/
+
+#balloon1-6{
+    margin-top: 80px;
+    width: 300px;
+    height: 50px;
+    background-color:aquamarine;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: orange;
+    margin-bottom: 0px;
+}
+
+#balloon1-7{
+    margin-top:  0px;
+    width: 300px;
+    height:  50px;
+    background-color:aquamarine;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: orange;
+    margin-bottom: 0px;
+}
+
+#balloon1-7:before{
+    position: absolute;
+    right: 300px;
+    bottom: 20px;
+    content:'';
+     width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 20px 30px 20px 20px;
+    border-color:  transparent aquamarine transparent transparent;
+   
+}
+
+#balloon1-8{
+    margin-top:0px;
+    width: 300px;
+    height: 50px;
+    background-color:aquamarine;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: orange;
+    margin-bottom: 0px;
+}
+
+#balloon1-9{
+    margin-top: 0px;
+    width: 300px;
+    height: 50px;
+    background-color:aquamarine;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: orange;
+    margin-bottom: 0px;
+}
+#balloon1-10{
+    margin-top:  0px;
+    width: 300px;
+    height:  100px;
+    background-color:aquamarine;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: orange;
+    margin-bottom: 0px;
+}
+.hukidashi1{
+    background-color: aquamarine;
+}
+
+/*ここからバックスバーニー*/
+
+#balloon1-11{
+    margin-top: 80px;
+    width: 300px;
+    height: 50px;
+    background-color:salmon;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: mintcream;
+    margin-bottom: 0px;
+}
+
+#balloon1-12{
+    margin-top:  0px;
+    width: 300px;
+    height:  50px;
+    background-color:salmon;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: mintcream;
+    margin-bottom: 0px;
+}
+
+#balloon1-12:before{
+    position: absolute;
+    right: -50px;
+    bottom: 20px;
+    content:'';
+     width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 20px 20px 20px 30px;
+    border-color:  transparent transparent transparent  salmon;
+   
+}
+
+#balloon1-13{
+    margin-top:0px;
+    width: 300px;
+    height: 50px;
+    background-color:salmon;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: mintcream;
+    margin-bottom: 0px;
+}
+
+#balloon1-14{
+    margin-top: 0px;
+    width: 300px;
+    height: 50px;
+    background-color:salmon;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: mintcream;
+    margin-bottom: 0px;
+}
+#balloon1-15{
+    margin-top:  0px;
+    width: 300px;
+    height:  100px;
+    background-color:salmon;
+    border-radius: 3px;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: mintcream;
+    margin-bottom: 0px;
+}
+
+.hukidashi2{
+    background-color: salmon;
+}
+
+/*ここからecho*/
+
+#picture0{
+    
+}
+
+.past{
+    font-size: 45px;
+    text-align: center;
+    color: olivedrab;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
