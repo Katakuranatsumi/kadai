@@ -26,7 +26,7 @@ try {
 }
 
 //２．データ表示SQL作成
-$stmt = $pdo->prepare("SELECT * FROM gs_bm_table");
+$stmt = $pdo->prepare("SELECT * FROM gs_bm2_table");
 $status = $stmt->execute();
 
 //$stmt1 = $pdo->prepare("SELECT * FROM gs_bm_table WHERE bookname LIKE '%$searchword%'");
@@ -124,6 +124,18 @@ if($status==false){
         <button id="btn" class="kensaku2">検索</button>
      </div>
     </form>
+    
+    
+<h2 class="bookserch">カテゴリーで検索をする</h2>
+<form action="categorysearch.php" method="get">
+    
+     <div class="catedorybutton2"><div class="iyashi1">癒しされたいなぁ・・・<input type="radio" value="癒されたいなぁ・・・" name="searchword2"></div>
+     <div class="shigoto1">仕事頑張りたいなぁ・・・<input type="radio" value="仕事頑張りたいなぁ・・・" name="searchword2"></div>
+     <div class="enjoy1">楽しみたいなぁ・・・<input type="radio" value="楽しみたいなぁ・・・" name="searchword2">
+     </div>
+     </div>
+        <button id="btn" class="kensaku3">検索</button>
+    </form>    
     
     <table class="kekka">
     <th style="background-color:#5f6527">本の名前</th>

@@ -137,13 +137,13 @@
 }
 .datasubmit{
     font-size: 20px;
-    margin-left: 575px;
+    margin-left: 555px;
     margin-top: 50px;
     color: tan;
 }
 .godata{
     font-size: 20px;
-    margin-left: 490px;
+    margin-left: 470px;
     margin-top: 50px;
     color: tan;
 }
@@ -160,13 +160,36 @@
     display: flex;
     justify-content: space-around;
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 220px;
     margin-top: 50px;
 }
 .booktourokupicture{
     margin-left: 450px;
     margin-top: 40px;
 }
+.bookcategory{
+     font-size: 30px;
+     color: cornflowerblue;
+     text-align: center;
+}
+.catedorybutton{
+    display: flex;
+    justify-content:space-around;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.iyashi{
+    color: seagreen;
+}
+.shigoto{
+    color: crimson;
+}
+.enjoy{
+    color: darkorange;
+}
+
 /*ここからselect.php*/
 .selecthtml{
     background-color: bisque;
@@ -286,6 +309,36 @@
     margin-left: 445px;
     margin-top: 20px;
 }
+
+.catedorybutton2{
+    display: flex;
+    justify-content:space-around;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.kensaku3{
+    font-size: 17px;
+    color: skyblue;
+    margin-left: 505px;
+    margin-top: 20px;
+}
+
+.iyashi1{
+    color: seagreen;
+    font-size: 20px;
+}
+.shigoto1{
+    color: crimson;
+    font-size: 20px;
+}
+.enjoy1{
+    color: darkorange;
+   font-size: 20px;
+}  
+    
 /*ここからはlogoutgamen.php*/
 .logoutshitayo{
     font-size: 50px;

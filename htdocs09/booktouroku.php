@@ -38,11 +38,19 @@ session_regenerate_id();
      
      <div class="kansou">感想:<textArea name="bookcoment" rows="4" cols="40" style="font-size:20px;"></textArea></div><br>
      
+     <div class="bookcategory">本のカテゴリーは何ですか？</div>
+     
+     <div class="catedorybutton"><div class="iyashi">癒し系<input type="radio" value="癒されたいなぁ・・・" name="category"></div>
+     <div class="shigoto">仕事頑張る系<input type="radio" value="仕事頑張りたいなぁ・・・" name="category"></div>
+     <div class="enjoy">楽しみたい系<input type="radio" value="楽しみたいなぁ・・・" name="category">
+     </div>
+     </div>
+     
      <button type="submit" value="送信" class="datasubmit">送信</button>
     </div>
   </div>
 </form>
-<form action="select.php">
+<form action="loginselect.php">
 <button type="submit" value="送信" class="godata">本のデータ一覧を見る</button>
 </form>
 

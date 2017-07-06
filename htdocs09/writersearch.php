@@ -11,7 +11,7 @@ try {
   exit('接続エラーを書くところだよ'.$e->getMessage());
 }
 
-$stmt2 = $pdo->prepare("SELECT * FROM gs_bm_table WHERE writername LIKE '%$searchword1%'");
+$stmt2 = $pdo->prepare("SELECT * FROM gs_bm2_table WHERE writername LIKE '%$searchword1%'");
 
 $status2 = $stmt2->execute();
 
@@ -61,7 +61,7 @@ if($status2==false){
 <div class="writersearchname">
  <?=$_SESSION["name"]?>さん、欲しい本は見つかりましたか？
 </div>
- <img src="img/mig.jpeg" class="writersearchpicture">
+ <img src="img/%E5%8B%95%E7%89%A9%E3%80%80%E6%9C%80%E5%BC%B7.jpg" class="writersearchpicture">
   <div class="kekka1">
     <table>
     <th style="background-color:#5f6527">本の名前</th>
@@ -77,7 +77,7 @@ if($status2==false){
         <button id="btn">検索</button>
     </form>
 -->
-<div class="modoru1"><a href="select.php">検索画面に戻る</a>
+<div class="modoru1"><a href="loginselect.php">検索画面に戻る</a>
 <a href="hiyoshi.php">はじめに戻る</a>
 </div>
 <form action="logout.php">

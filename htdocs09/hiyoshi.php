@@ -7,7 +7,7 @@ try {
 }
 
 //２．データ表示SQL作成
-$stmt = $pdo->prepare("SELECT * FROM gs_bm_table");
+$stmt = $pdo->prepare("SELECT * FROM gs_bm2_table");
 $status = $stmt->execute();
 
 $view="";

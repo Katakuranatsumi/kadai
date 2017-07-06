@@ -4,8 +4,7 @@ $bookname = $_POST["bookname"];
 $bookURL = $_POST["bookURL"];
 $writername = $_POST["writername"];
 $bookcoment = $_POST["bookcoment"];
-
-
+$category = $_POST["category"];
 
 
 
@@ -18,14 +17,16 @@ try { $pdo = new PDO('mysql:dbname=gs_db;charset=utf8;host=localhost','root','')
 
 
 //３．データ登録SQL作成
-$stmt = $pdo->prepare("INSERT INTO gs_bm_table( id, bookname, writername, bookURL, bookcoment, bookdate)
-VALUES(NULL, :bookname, :writername, :bookURL, :bookcoment, sysdate())");
+$stmt = $pdo->prepare("INSERT INTO gs_bm2_table( id, bookname, writername, bookURL, bookcoment, category, bookdate)
+VALUES(NULL, :bookname, :writername, :bookURL, :bookcoment, :category, sysdate())");
 
 $stmt->bindValue(':bookname', $bookname, PDO::PARAM_STR);  //Integer（数値の場合 PDO::PARAM_INT)
 $stmt->bindValue(':bookURL', $bookURL, PDO::PARAM_STR);  //Integer（数値の場合 PDO::PARAM_INT)
 $stmt->bindValue(':bookcoment', $bookcoment, PDO::PARAM_STR); //Integer（数値の場合 PDO::PARAM_INT)
 $stmt->bindValue(':writername', $writername, PDO::PARAM_STR);
 
+$stmt->bindValue(':category', 
+$category, PDO::PARAM_STR);
 
 $status = $stmt->execute();
 
