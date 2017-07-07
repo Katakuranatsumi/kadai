@@ -136,13 +136,13 @@ if($status==false){
      </div>
         <button id="btn" class="kensaku3">検索</button>
     </form>    
-    
+    <div class="kekka3">
     <table class="kekka">
     <th style="background-color:#5f6527">本の名前</th>
     <th style="background-color:#f2dae8">作者の名前</th>
     <th style="background-color:#d1bada">本のURL</th>
     <th style="background-color:#c1ab05">感想</th><?=$view?></table>
-    
+    </div> 
 <!--
     <div class="container jumbotron">
     <table><?=$view1?></table>

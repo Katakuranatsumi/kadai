@@ -62,7 +62,7 @@ if($status2==false){
  <?=$_SESSION["name"]?>さん、欲しい本は見つかりましたか？
 </div>
  <img src="img/daefa5e2.jpg" class="writersearchpicture">
-  <div class="kekka1">
+  <div class="kekka2">
     <table>
     <th style="background-color:#5f6527">本の名前</th>
     <th style="background-color:#f2dae8">作者の名前</th>

@@ -41,7 +41,7 @@
   overflow: hidden;
   position: relative;
   height: 700px;
-  margin-left: 370px;
+  margin-left: 400px;
   
 }
 .image-crossfader-inner {
@@ -338,6 +338,12 @@
     color: darkorange;
    font-size: 20px;
 }  
+
+.kekka3{
+    font-size: 18px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
     
 /*ここからはlogoutgamen.php*/
 .logoutshitayo{
@@ -376,7 +382,7 @@
 }
 .writersearchpicture{
     margin-top: 50px;
-    margin-left: 410px;
+    margin-left: 250px;
 }
 
 .writersearchlogout{
@@ -385,6 +391,12 @@
     background-color:thistle;
     margin-left: 450px;
     margin-top: 50px;
+}
+
+.kekka2{
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 60px;
 }
 /*ここからselect2.php*/
 .select2html{
